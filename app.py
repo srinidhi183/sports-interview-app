@@ -155,7 +155,7 @@ openai.api_base = "https://openrouter.ai/api/v1"
 @st.cache_resource
 def load_classifier():
     # Load the fine-tuned model and tokenizer
-    model_path = "./best_model"  # Path to your fine-tuned model
+    model_path = "DeBERTa"  # Path to your fine-tuned model
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModelForSequenceClassification.from_pretrained(model_path)
     return tokenizer, model
