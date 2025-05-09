@@ -1,8 +1,12 @@
 streamlit
+scikit-learn
 transformers
 torch
 sentence-transformers
 pandas
-scikit-learn
-plotly
 numpy
+plotly
+matplotlib
+seaborn
+openai
+umap-learn
